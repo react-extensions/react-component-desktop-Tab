@@ -1,0 +1,31 @@
+.bi-tab {
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+}
+.bi-tab-group {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+
+.bi-tab-active-indicator {
+  position: absolute;
+  bottom: 0;
+  background: @primary-color;
+  height: 3px;
+  transition: all ease 0.3s;
+}
+
+.bi-tab {
+  padding: 22px 20px;
+}
+
+.bi-tab-active {
+  color: @primary-color;
+  font-weight: 600;
+}
